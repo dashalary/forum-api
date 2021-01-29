@@ -3,7 +3,7 @@ class CreatePosts < ActiveRecord::Migration[6.0]
     create_table :posts do |t|
       t.string :content
       t.string :author
-      t.integer :likes
+      t.integer :likes, default: 0
 
       t.timestamps
     end
