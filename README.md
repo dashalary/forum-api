@@ -1,24 +1,27 @@
-# README
+## Forum
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Welcome to Forum! This app was made to facilitate conversations and engagement through posts and comments. It uses a Rails API backend and a React-Redux frontend, the latter of which can be found here: https://github.com/dashalary/forum-client
 
-Things you may want to cover:
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-* Ruby version
 
-* System dependencies
+## Installation
 
-* Configuration
 
-* Database creation
+To begin, clone and open both repositories. Open the frontend repository and run the following commands in your terminal in order to install the necessary packages:
 
-* Database initialization
+``$npm install``
+``$npm start``
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+In the backend, run:
 
-* ...
+``$rails db:migrate``
+``$rails s``
+
+
+
+
+
+
